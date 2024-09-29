@@ -1,7 +1,7 @@
 # sprint-2-Edge
 
 
-# Sprint-1---Challenge---17-de-Junho 
+# Sprint-1---Challenge---30-de-Setembro
 
 
 ## Índice :page_with_curl:
@@ -61,46 +61,32 @@ Você pode acessar a [simulação feita no Wooki](https://wokwi.com/projects/409
 
 <h3>Cuidados durante a montagem :warning:</h3>
 
-- ``3.`` Conectando o DHT:
-  - ``3.1.`` Na simulação e na imagem acima, utilizamos o DHT22, entretanto, no [código do projeto] utilizamos o DHT11;
-    - ``3.1.1.`` Esses sensores possuem a diferença de que o DHT22 é mais preciso do que o DHT11, no qual possui uma margem de erro maior;
-    - ``3.1.2.`` Se quiser utilizar um DHT22, a única coisa que precisará será trocar ,no código, o tipo do DHT para 22 nessa seguinte parte:
+- ``1.`` Conectando o DHT:
+  - ``1.1.`` Na simulação e na imagem acima, utilizamos o DHT22, entretanto, no [código do projeto] utilizamos o DHT11;
+    - ``1.1.1.`` Esses sensores possuem a diferença de que o DHT22 é mais preciso do que o DHT11, no qual possui uma margem de erro maior;
+    - ``1.1.2.`` Se quiser utilizar um DHT22, a única coisa que precisará será trocar ,no código, o tipo do DHT para 22 nessa seguinte parte:
             
       ```cpp
       //Definindo o tipo do DHT  
       #define DHTTYPE DHT11   
       ```
       
-  - ``3.2.`` É necessário ter muito cuidado na hora de conectar os cabos, pois se conecta-los errados, o DHT queimará. Segue a Imagem de quais são os terminais do DHT:
+  - ``1.2.`` É necessário ter muito cuidado na hora de conectar os cabos, pois se conecta-los errados, o DHT queimará. Segue a Imagem de quais são os terminais do DHT:
       <details>
         <summary>Imagem dos terminais do DHT11</summary>
         <img src="https://github.com/L-A-N-E/CP2_Edge_1SEM/assets/101829188/d26416fb-d639-4760-b590-593932e5a888" alt="Terminais do DHT11">
       </details>
-  - ``3.3.`` Conecte o VCC no terminal positivo (5V), GND no terminal negativo (GND), o terminal dos dados no pino 2 e não conecte nada no terminal N.C.;
-
-- ``4.`` Conectando o LCD:
-  - ``4.1.`` **Atenção!** Estamos utilizando um LCD 16x2 com um módulo I2C!;
-  - ``4.2.`` Conecte o VCC no terminal positivo (5V), GND no terminal negativo (GND), o SDA no pino do Arduino A4 e o SCL no A5;
-  - ``4.3.`` Teste para ver se o display está funcionando, se tiver problemas com o display, pode ser algumas dessas possibilidades: o LCD está quebrado, com mal contato ou o contraste está baixo;
-    - ``4.3.1.`` Para aumentar o contraste do display basta girar o trimpot de ajuste do contraste no sentido anti-horário. Por sua vez, para diminuir o contraste gire no sentido horário.
+  - ``1.3.`` Conecte o VCC no terminal positivo (5V), GND no terminal negativo (GND), o terminal dos dados no pino 2 e não conecte nada no terminal N.C.;
       <details>
         <summary>Imagem de onde fica o trimpot de ajuste do contraste</summary>
         <img src="https://github.com/L-A-N-E/CP2_Edge_1SEM/assets/101829188/50648d65-2402-4508-a47d-1d38bbf663e5" alt="Terminais do DHT11">
       </details>
 ## Reprodução :gear:
 
-- ``1.`` Após a montagem do projeto, é necessário inserir o código por meio de um computador que possui o programa Arduino IDE instalado;
-- ``2.`` Baixe as [bibliotecas necessárias](#bibliotecas-utilizadas-books) no Arduino IDE; 
-- ``3.`` Transferir o código do computador para  o Arduino por meio do Cabo USB;
-- ``4.`` Testar para ver se está funcionando;
-- ``5.`` Com tudo montado e pronto, é necessário levá-lo para o ambiente em que será implementado e ligá-lo á uma fonte;
-
 ## Pessoas Desenvolvedoras do Projeto :globe_with_meridians:
 Paulo Poças -Rm556080
 
 Guilherme Gomes - Rm554606
-
-Pedro Gaspar Fernandes Ferrari - Rm554887
 
 Andre Luiz Fernandes De Queiroz - Rm554503
 
