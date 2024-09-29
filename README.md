@@ -52,16 +52,9 @@ Você pode acessar a [simulação feita no Wooki](https://wokwi.com/projects/398
 
 |   Componente   | Quantidade |
 |:--------------:|:----------:|
-| Arduino Uno R3 |      1     |
-| 220 Ω Resistor |      3     |
-|     DHT11      |      1     |
-|    LED verde   |      1     |
-|   LED amarelo  |      1     |
-|  LED vermelho  |      1     |
-| Buzzer (Piezo) |      1     |
-|   LCD 16x2 com módulo I2C    |      1     |
-|      Cabo      |     19     |
-|    Cabo USB    |      1     |
+| ESP32          |      1     |
+|      Cabo      |     6      |
+|    Cabo USB-C   |      1     |
 
 ## Montagem :wrench:
 
