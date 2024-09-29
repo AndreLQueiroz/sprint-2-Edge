@@ -1,8 +1,6 @@
 # sprint-2-Edge
 
 
-# Sprint-1---Challenge---30-de-Setembro
-
 
 ## Índice :page_with_curl:
 
