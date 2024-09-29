@@ -25,7 +25,6 @@
 <h3>Introdução :left_speech_bubble:</h3>
 <p>
   Nós, NEXT STAGE, gostariamos de mostrar no projeto de arduino que consiste em mostrar a humidade e a temperatura da pista para nao ocorrer nenhum problema durante a corrida, pois alguns dos problemas notados e que as pistas da Formula E nem sempre sao bem revisionadas perante isso gostariamos de mostrar nosso projeto.
-<h3>Inicialização :star2:</h3>
 <h3>Umidade :droplet:</h3>
 <p>
   Diante disso, utilizamos o mesmo sensor, o DHT11, que captura a temperatura da adega, já que ele também captura a umidade do ambiente. Além disso, indicará se a umidade está alta, baixa ou na faixa ideal, entre 50% e 70%. Essas informações também são mostradas no display (LCD). Quando a umidade estiver fora da situação ideal, o LED vermelho será aceso e a buzina (Buzzer) tocará continuamente.
@@ -33,17 +32,17 @@
 
 ## Acesso ao projeto :file_folder:
 
-Você pode acessar a [simulação feita no Wooki](https://wokwi.com/projects/398139770432957441)
+Você pode acessar a [simulação feita no Wooki](https://wokwi.com/projects/409556614371884033)
 
 ## Ferramenta utilizada :hammer_and_wrench:
 
-- ``Arduino IDE``
+- ``ESP32``
   
 ## Bibliotecas utilizadas :books:
 
-- ``LiquidCrystal_I2C``
-- ``DHT sensor library``
-- ``Wire``
+- ``WiFi.h``
+- ``PubSubClient.h``
+- ``DHT.h``
   
 ## Componentes necessários :toolbox:
 
@@ -61,16 +60,6 @@ Você pode acessar a [simulação feita no Wooki](https://wokwi.com/projects/398
 </details>
 
 <h3>Cuidados durante a montagem :warning:</h3>
-
-- ``1.`` Conectando os LED’s e o Buzzer:
-   - ``1.1.`` Ambos possuem polaridade, então precisamos ter cuidado na hora de conectar-los aos cabos;
-   - ``1.2.`` O LED possui um terminal maior, que tem polaridade positiva, e o lado do terminal menor tem polaridade negativa. Portanto, conectamos a conexão do Arduino no terminal positivo (Ânodo) e o GND no terminal negativo (Catodo);
-   - ``1.3.`` O Buzzer possui uma indicação se o lado é positivo ou negativo;
-
-- ``2.`` Conectando o LDR:
-  - ``2.1.`` Nesta segunda parte, mudamos o LDR para um Módulo LDR com 4 terminais no qual possui a opção da saída dos dados analógicos ou digitais. Com isso, nesse projeto, continuamos usando a entrada analógica. Então, verifique se o cabo que está conectado ao A0 do Arduino está  conectado ao A0 do LDR.
-  - ``2.2.`` Conecte o VCC no terminal positivo (5V) e o GND no terminal negativo (GND);
-  - ``2.3.`` Relaxe, um dos terminais do LDR ficará sem conectar, pois esse é onde sai os dados digitais;
 
 - ``3.`` Conectando o DHT:
   - ``3.1.`` Na simulação e na imagem acima, utilizamos o DHT22, entretanto, no [código do projeto] utilizamos o DHT11;
