@@ -90,3 +90,5 @@ Guilherme Gomes - Rm554606
 Andre Luiz Fernandes De Queiroz - Rm554503
 
 Israel araujo henriques de Moura - Rm559068
+
+Lucas Feliciano - Rm557261
