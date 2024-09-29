@@ -52,7 +52,11 @@ Você pode acessar a [simulação feita no Wooki](https://wokwi.com/projects/409
 <details>
   <summary>Imagem da Montagem</summary>
   <img src="https://cdn.discordapp.com/attachments/1234868042433822752/1290040192756879390/projetoedge.png?ex=66fb030d&is=66f9b18d&hm=60224bc5677a70afa6d6c54d850dc138d55dd380cff9f2485801986b8cb02fe1&" alt="imagem-montagem">
+<sumary>Arquitetura do Projeto</sumary>
+<img src="https://cdn.discordapp.com/attachments/1234868042433822752/1290041787175538811/arquitetura.png?ex=66fb0489&is=66f9b309&hm=80b416c9056a68095f72e6c48ca8797813f5560f8a4e716bd39cab57fccf050d&" alt= "imagem-montagem">
+
 </details>
+
 
 <h3>Cuidados durante a montagem :warning:</h3>
 
