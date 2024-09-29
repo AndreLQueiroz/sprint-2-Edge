@@ -26,9 +26,6 @@
 <p>
   Nós, NEXT STAGE, gostariamos de mostrar no projeto de arduino que consiste em mostrar a humidade e a temperatura da pista para nao ocorrer nenhum problema durante a corrida, pois alguns dos problemas notados e que as pistas da Formula E nem sempre sao bem revisionadas perante isso gostariamos de mostrar nosso projeto.
 <h3>Inicialização :star2:</h3>
-<p>
- Ao ligar o dispositivo, o Buzzer tocará um som e todos os LED's piscarão. Implementamos isso pois isso verificará se os LED's e o Buzzer estão funcionando. Após isso, o logo da nossa empresa aparece no display (LCD). Em seguida, ele mostra os valores da temperatura e umidade 10 vezes cada. Depois, exibe a média desses valores. E então, o ciclo recomeça.
-</p>
 <h3>Umidade :droplet:</h3>
 <p>
   Diante disso, utilizamos o mesmo sensor, o DHT11, que captura a temperatura da adega, já que ele também captura a umidade do ambiente. Além disso, indicará se a umidade está alta, baixa ou na faixa ideal, entre 50% e 70%. Essas informações também são mostradas no display (LCD). Quando a umidade estiver fora da situação ideal, o LED vermelho será aceso e a buzina (Buzzer) tocará continuamente.
