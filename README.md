@@ -51,7 +51,7 @@ Você pode acessar a [simulação feita no Wooki](https://wokwi.com/projects/409
 
 <details>
   <summary>Imagem da Montagem</summary>
-  <img src="https://github.com/L-A-N-E/CP2_Edge_1SEM/assets/101829188/f222851c-31ac-4af2-ae67-96aba71d051a" alt="imagem-montagem">
+  <img src="https://cdn.discordapp.com/attachments/1234868042433822752/1290040192756879390/projetoedge.png?ex=66fb030d&is=66f9b18d&hm=60224bc5677a70afa6d6c54d850dc138d55dd380cff9f2485801986b8cb02fe1&" alt="imagem-montagem">
 </details>
 
 <h3>Cuidados durante a montagem :warning:</h3>
