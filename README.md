@@ -8,12 +8,9 @@
 
   * [Descrição do Projeto](#descrição-do-projeto-memo)
      * [Introdução](#introdução-left_speech_bubble)
-     * [Inicialização](#inicialização-star2)
-     * [Temperatura](#temperatura-thermometer)
      * [Umidade](#umidade-droplet)
   * [Acesso ao projeto](#acesso-ao-projeto-file_folder)
   * [Ferramenta utilizada](#ferramenta-utilizada-hammer_and_wrench)
-  * [Bibliotecas utilizadas](#bibliotecas-utilizadas-books)
   * [Componentes necessários](#componentes-necessários-toolbox)
   * [Montagem](#montagem-wrench)
      * [Cuidados durante a montagem](#cuidados-durante-a-montagem-warning)
@@ -81,7 +78,6 @@ Você pode acessar a [simulação feita no Wooki](https://wokwi.com/projects/409
         <summary>Imagem de onde fica o trimpot de ajuste do contraste</summary>
         <img src="https://github.com/L-A-N-E/CP2_Edge_1SEM/assets/101829188/50648d65-2402-4508-a47d-1d38bbf663e5" alt="Terminais do DHT11">
       </details>
-## Reprodução :gear:
 
 ## Pessoas Desenvolvedoras do Projeto :globe_with_meridians:
 Paulo Poças -Rm556080
